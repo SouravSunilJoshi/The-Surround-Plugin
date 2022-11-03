@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Oswald&family=Poppins&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* navbar */
+.main>.navbar{
+    padding: 2% 10%;
+}
+
+/* first page */
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./Image/bgvideotrial.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.maincall>h1{
+    margin: 2% 5%;
+    font-size: 98px;
+    font-weight: bold;
+}
+
+.maincall>a{
+    text-decoration: none;
+    margin: 2% 5%;
+    font-size: 24px;
+    color: #F86565;
+}
+
+.maincall>h3{
+    margin: 2% 5%;
+}
+
+@media screen and (max-width:600px) {
+    .main>.navbar{
+        padding: 2% 5%;
+    }
+    .main{
+        background-image: none;
+        background-color: #DA9CF6;
+    }    
+}
